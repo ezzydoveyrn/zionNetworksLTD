@@ -1,0 +1,229 @@
+.landingPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.landingPage .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+/********* right *********/
+.landingPage .left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.landingPage .left .top-container{
+  width: 100%;
+  height: 65vh;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.landingPage .left .top-container .text{
+  width: 80%;
+}
+.landingPage .left .top-container .text h1{
+  margin-bottom: 50px;
+}
+.landingPage .left .top-container .text p{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.852);
+  margin-bottom: 50px;
+}
+.landingPage .left .top-container .button-container{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.landingPage .left .top-container .button-container .btn{
+  width: max-content;
+  padding: 0 10px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.landingPage .left .top-container .button-container .btn-active{
+  background-color: rgb(14, 221, 104);
+  color: white;
+}
+.landingPage .left .top-container .button-container .btn-second{
+  background-color: white;
+  color: black;
+  border: 1px solid green;
+}
+.landingPage .left .top-container .button-container .btn-last{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/******bottom Container *********/
+.landingPage .left .bottom-container{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landingPage .left .bottom-container p{
+  width: 80%;
+}
+.landingPage .left .bottom-container .button-container{
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.landingPage .left .bottom-container .button-container .btn{
+  width: max-content;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.landingPage .left .bottom-container .button-container .btn-active{
+  background-color: rgb(14, 221, 104);
+  color: white;
+}
+.landingPage .left .bottom-container .button-container .btn-last{
+  border: 1px solid black;
+  color: black;
+}
+@media (max-width: 500px) {
+  .landingPage{
+    flex-wrap: wrap;
+  }
+  .landingPage .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+    padding: 10px;
+  }
+  /********* right *********/
+  .landingPage .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+  }
+  .landingPage .left .top-container{
+    width: 100%;
+    height: 50vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .landingPage .left .top-container .text{
+    width: 80%;
+  }
+  .landingPage .left .top-container .text h1{
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+  .landingPage .left .top-container .text p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.852);
+    margin-bottom: 50px;
+  }
+  .landingPage .left .top-container .button-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .landingPage .left .top-container .button-container .btn{
+    width: max-content;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .landingPage .left .top-container .button-container .btn-active{
+    background-color: rgb(14, 221, 104);
+    color: white;
+  }
+  .landingPage .left .top-container .button-container .btn-second{
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+  }
+  .landingPage .left .top-container .button-container .btn-last{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  /******bottom Container *********/
+  .landingPage .left .bottom-container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landingPage .left .bottom-container p{
+    width: 80%;
+  }
+  .landingPage .left .bottom-container .button-container{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .landingPage .left .bottom-container .button-container .btn{
+    width: max-content;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+  .landingPage .left .bottom-container .button-container .btn-active{
+    background-color: rgb(14, 221, 104);
+    color: white;
+  }
+  .landingPage .left .bottom-container .button-container .btn-last{
+    border: 1px solid black;
+    color: black;
+  }
+}

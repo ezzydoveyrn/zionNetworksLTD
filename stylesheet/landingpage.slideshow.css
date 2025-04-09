@@ -1,0 +1,200 @@
+/********* left *********/
+.landingPage .right .container{
+  width: 90%;
+  height: 80vh;
+}
+.landingPage .right .container .cont-1{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.landingPage .right .container .cont-1 .randomTop-text{
+  color: rgb(14, 221, 104);
+  font-weight: bold;
+}
+.landingPage .right .container .cont-2{
+  width: 95%;
+  height: 55vh;
+  background-color: #14dc8f;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landingPage .right .container .cont-2 p{
+  width: 100%;
+  text-align: center;
+}
+.landingPage .right .container .cont-2 p:first-child{
+  font-size: 23px;
+  font-weight: bold;
+}
+.landingPage .right .container .cont-2 p:nth-child(2){
+  font-size: 18px;
+}
+
+.landingPage .right .container .cont-2 .inner-container{
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.landingPage .right .container .cont-2 .inner-container .prod-container{
+  height: 90%;
+  max-height: 150px;
+  width: 110px;
+  background-color: #00000072;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.landingPage .right .container .cont-2 .inner-container .prod-container .top{
+  background-color: tomato;
+  height: 60px;
+  border-radius: 0 0 10px 10px;
+}
+.landingPage .right .container .cont-2 .inner-container .prod-container .top p{
+  width: 100%;
+  text-align: center;
+}
+.landingPage .right .container .cont-2 .inner-container .prod-container .top p:first-child{
+  font-size: 20px;
+}
+.landingPage .right .container .cont-2 .inner-container .prod-container .top p:nth-child(2){
+  font-size: 18px;
+}
+
+.landingPage .right .container .cont-2 .inner-container .prod-container .bottom p{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+.landingPage .right .container .cont-2 .inner-container .prod-container .bottom p:nth-child(2){
+  margin-top: 2px;
+}
+
+.landingPage .right .container .cont-2 .logo{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingPage .right .container .cont-2 .logo img{
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+@media (max-width: 500px) {
+  /********* left *********/
+  .landingPage .right .container{
+    width: 90%;
+    height: 100%;
+  }
+  .landingPage .right .container .cont-1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .landingPage .right .container .cont-1 .randomTop-text{
+    color: rgb(14, 221, 104);
+    font-weight: bold;
+  }
+  .landingPage .right .container .cont-2{
+    width: 100%;
+    height: 35vh;
+    background-color: #14dc8f;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .landingPage .right .container .cont-2 p{
+    width: 100%;
+    text-align: center;
+  }
+  .landingPage .right .container .cont-2 p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .landingPage .right .container .cont-2 p:nth-child(2){
+    font-size: 16px;
+  }
+  .landingPage .right .container .cont-2 p:last-child{
+    font-size: 10px;
+  }
+
+  .landingPage .right .container .cont-2 .inner-container{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container{
+    height: 90%;
+    max-height: 150px;
+    width: 60px;
+
+    background-color: #00000072;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container .top{
+    background-color: tomato;
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+    padding: 2px;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container .top p{
+    width: 100%;
+    text-align: center;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container .top p:first-child{
+    font-size: 11px;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container .top p:nth-child(2){
+    font-size: 13px;
+  }
+
+  .landingPage .right .container .cont-2 .inner-container .prod-container .bottom p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container .bottom p:first-child{
+    font-size: 14px;
+  }
+  .landingPage .right .container .cont-2 .inner-container .prod-container .bottom p:nth-child(2){
+    margin-top: 2px;
+  }
+
+  .landingPage .right .container .cont-2 .logo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .landingPage .right .container .cont-2 .logo img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+}

@@ -1,0 +1,172 @@
+header{
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+}
+/********** top *******/
+
+header .top{
+  width: 100%;
+  height: 40px;
+  background-color: #14dc8f;
+}
+
+header .top nav{
+  width: 100%;
+  height: 100%;
+}
+header .top nav .nav-list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .top nav .nav-list li{
+  list-style: none;
+  transition: all 0.15s;
+  margin-left: 50px;
+}
+header .top nav .nav-list li a{
+  text-decoration: none;
+  color: rgb(1, 4, 6);
+  font-weight: bold;
+  transition: all 0.15s;
+}
+header .top nav .nav-list li a:hover{
+  color: white;
+  background-color: black;
+  padding: 5px;
+}
+
+/********* bottom **********/
+
+header .bottom{
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  border-bottom: 1px solid black;
+  display: flex;
+  background-color: white;
+}
+/***********logo image ********/
+header .bottom .logo img{
+  width: 250px;
+  height: 60px;
+  object-fit: cover;
+}
+header .bottom nav{
+  flex-grow: 1;
+  height: 100%;
+}
+header .bottom nav .bottom-nav{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header .bottom nav .bottom-nav li{
+  list-style: none;
+  margin-left: 50px;
+}
+header .bottom nav .bottom-nav li a{
+  color: rgba(0, 0, 0, 0.653);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.15s;
+}
+header .bottom nav .bottom-nav li a:hover{
+  color: black;
+}
+@media (max-width: 500px) {
+  header{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+  }
+  /********** top *******/
+
+  header .top{
+    width: 100%;
+    height: 40px;
+    background-color: #14dc8f;
+  }
+
+  header .top nav{
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  header .top nav .nav-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  header .top nav .nav-list li{
+    list-style: none;
+    transition: all 0.15s;
+    margin-left: 50px;
+  }
+  header .top nav .nav-list li a{
+    text-decoration: none;
+    color: rgb(1, 4, 6);
+    font-weight: bold;
+    transition: all 0.15s;
+  }
+  header .top nav .nav-list li a:hover{
+    color: white;
+    background-color: black;
+    padding: 5px;
+  }
+
+  /********* bottom **********/
+
+  header .bottom{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: white;
+  }
+  /***********logo image ********/
+  header .bottom .logo img{
+    width: 250px;
+    height: 60px;
+    object-fit: cover;
+    display: none;
+  }
+  header .bottom nav{
+    width: 100%;
+    height: 100%;
+  }
+  header .bottom nav .bottom-nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+    padding: 0px 10px;
+  }
+  header .bottom nav .bottom-nav li{
+    list-style: none;
+    margin-left: 50px;
+    min-width: max-content;
+  }
+  header .bottom nav .bottom-nav li a{
+    color: rgba(0, 0, 0, 0.653);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.15s;
+  }
+  header .bottom nav .bottom-nav li a:hover{
+    color: black;
+  }
+}
