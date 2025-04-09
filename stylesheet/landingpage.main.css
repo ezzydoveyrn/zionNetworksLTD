@@ -60,7 +60,7 @@
   font-size: 18px;
 }
 .landingPage .left .top-container .button-container .btn-active{
-  background-color: rgb(14, 221, 104);
+  background-color: rgb(45, 179, 74);
   color: white;
 }
 .landingPage .left .top-container .button-container .btn-second{
@@ -104,7 +104,7 @@
   margin-right: 20px;
 }
 .landingPage .left .bottom-container .button-container .btn-active{
-  background-color: rgb(14, 221, 104);
+  background-color: rgb(45, 179, 74);
   color: white;
 }
 .landingPage .left .bottom-container .button-container .btn-last{
@@ -136,7 +136,7 @@
   }
   .landingPage .left .top-container{
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
