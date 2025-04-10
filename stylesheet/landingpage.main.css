@@ -2,14 +2,13 @@ main{
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .landingPage {
   display: flex;
   align-items: center;
   justify-content: center;
   height: max-content;
-  padding-bottom: 90px;
+  padding-bottom: 20px;
   max-width: 1500px;
 }
 .landingPage .right {
