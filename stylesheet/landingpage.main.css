@@ -68,13 +68,13 @@ main{
   font-size: 18px;
 }
 .landingPage .left .top-container .button-container .btn-active{
-  background-color: #0265d6;
+  background-color: #2db34a;
   color: white;
 }
 .landingPage .left .top-container .button-container .btn-second{
   background-color: white;
   color: black;
-  border: 1px solid #0265d6;
+  border: 1px solid #2db34a;
 }
 .landingPage .left .top-container .button-container .btn-last{
   background-color: white;
@@ -112,7 +112,7 @@ main{
   margin-right: 20px;
 }
 .landingPage .left .bottom-container .button-container .btn-active{
-  background-color: #0265d6;
+  background-color: #2db34a;
   color: white;
 }
 .landingPage .left .bottom-container .button-container .btn-last{
@@ -183,13 +183,13 @@ main{
     margin-bottom: 15px;
   }
   .landingPage .left .top-container .button-container .btn-active{
-    background-color: #0265d6;
+    background-color: #2db34a;
     color: white;
   }
   .landingPage .left .top-container .button-container .btn-second{
     background-color: white;
     color: black;
-    border: 1px solid #0265d6;
+    border: 1px solid #2db34a;
   }
   .landingPage .left .top-container .button-container .btn-last{
     background-color: white;
@@ -227,7 +227,7 @@ main{
     margin-right: 20px;
   }
   .landingPage .left .bottom-container .button-container .btn-active{
-    background-color: #0265d6;
+    background-color: #2db34a;
     color: white;
   }
   .landingPage .left .bottom-container .button-container .btn-last{
