@@ -27,7 +27,7 @@ header .top .topLogo{
 header .top .topLogo img{
   height: 100%;
   object-fit: cover;
-  width: 150px;
+  width: 200px;
 }
 header .top nav{
   width: 100%;
