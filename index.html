@@ -8,10 +8,16 @@
   <link rel="stylesheet" href="stylesheet/style.css">
   <link rel="stylesheet" href="stylesheet/landingpage.main.css">
   <link rel="stylesheet" href="stylesheet/landingpage.slideshow.css">
+  <link rel="stylesheet" href="stylesheet/sidenav.general.css">
 </head>
 <body>
   <header>
     <div class="top">
+      <div class="sidenav">
+        <button class="sidenav-btn" id="sidenav-btn">
+          <img src="assets/svgs/menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"></img>
+        </button>
+      </div>
       <nav>
         <ul class="nav-list">
           <li><a href="#">Personal</a></li>
@@ -23,6 +29,15 @@
           <li><a href="#">Customer Service</a></li>
         </ul>
       </nav>
+      <div class="sidenav-container displayNone">
+        <ul class="sidenav-list">
+          <li><a href="#">Get Connected</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="#">Add-Ons</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
     </div>
     <div class="bottom">
       <div class="logo">
@@ -82,7 +97,7 @@
       </div>
     </div>
   </main>
-
+  <script src="javascript/header.js"></script>
   <script src="javascript/slideshow.main.js"></script>
 </body>
 </html>
