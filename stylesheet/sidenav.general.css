@@ -30,7 +30,29 @@ header .top .sidenav-container{
   width: 60%;
   height: 100%;
   background-color: aliceblue;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
 }
+header .top .sidenav-container.active {
+  transform: translateX(0);
+}
+/* Optional overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 900;
+}
+
+.overlay.active {
+  display: block;
+}
+
+
 header .top .sidenav-container .sidenav-list{
   display: flex;
   flex-direction: column;

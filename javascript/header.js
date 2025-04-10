@@ -1,19 +1,23 @@
-let sidenavBtn = document.querySelector('.sidenav-btn');
-let sidenav = document.querySelector(".sidenav-container");
-sidenavBtn.addEventListener('click', (e) => {
-    sidenav.classList.toggle('displayNone');
+const sidenavBtn = document.querySelector(".sidenav-btn");
+const sidenav = document.querySelector(".sidenav-container");
+const overlay = document.getElementById("overlay");
+
+sidenavBtn.addEventListener("click", () => {
+  sidenav.classList.toggle("active");
+  overlay.classList.toggle("active");
 });
 
-const mainBody = document.querySelector("main");
-mainBody.addEventListener("click", (e) => {
-    if(sidenav.classList.contains("displayNone")){
-        sidenav.classList.add("displayNone");
-    }else if (sidenav.classList !== "displayNone"){
-        sidenav.classList.toggle("displayNone");
-    }
+overlay.addEventListener("click", () => {
+  sidenav.classList.remove("active");
+  overlay.classList.remove("active");
 });
 
-
+document.querySelector("main").addEventListener("click", () => {
+  if (sidenav.classList.contains("active")) {
+    sidenav.classList.remove("active");
+    overlay.classList.remove("active");
+  }
+});
 
 // slideshow
 let slide1 = document.querySelector(".slide1");
@@ -28,39 +32,35 @@ let slideBtnLeft = document.querySelector(".slideBtnLeft");
 let slideBtnRight = document.querySelector(".slideBtnRight");
 
 setInterval(() => {
-    slide1.classList.toggle("displayNone");
-    slide2.classList.toggle("displayNone");
+  slide1.classList.toggle("displayNone");
+  slide2.classList.toggle("displayNone");
 
-    if (!slide1.classList.contains("displayNone")) {
-        document.querySelector(".randomTop-text").innerHTML =
-          "Feels good to upgrade";
-    }
-    else {
-        document.querySelector(".randomTop-text").innerHTML =
-          "Take a moment to Rock out!";
-    }
+  if (!slide1.classList.contains("displayNone")) {
+    document.querySelector(".randomTop-text").innerHTML =
+      "Feels good to upgrade";
+  } else {
+    document.querySelector(".randomTop-text").innerHTML =
+      "Take a moment to Rock out!";
+  }
 
-    slide1Active.classList.toggle("activeSlide");
-    slide2Active.classList.toggle("activeSlide");
+  slide1Active.classList.toggle("activeSlide");
+  slide2Active.classList.toggle("activeSlide");
 }, 4000);
 
 slideBtnLeft.addEventListener("click", (e) => {
-    slide1.classList.toggle("displayNone");
-    slide2.classList.toggle("displayNone");
+  slide1.classList.toggle("displayNone");
+  slide2.classList.toggle("displayNone");
 
-    slide1Active.classList.toggle("activeSlide");
-    slide2Active.classList.toggle("activeSlide");
+  slide1Active.classList.toggle("activeSlide");
+  slide2Active.classList.toggle("activeSlide");
 });
 slideBtnRight.addEventListener("click", (e) => {
-    slide1.classList.toggle("displayNone");
-    slide2.classList.toggle("displayNone");
+  slide1.classList.toggle("displayNone");
+  slide2.classList.toggle("displayNone");
 
-    slide1Active.classList.toggle("activeSlide");
-    slide2Active.classList.toggle("activeSlide");
+  slide1Active.classList.toggle("activeSlide");
+  slide2Active.classList.toggle("activeSlide");
 });
-
-
-
 
 //app installation
 if ("serviceWorker" in navigator) {
