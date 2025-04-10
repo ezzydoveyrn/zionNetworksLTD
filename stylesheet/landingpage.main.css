@@ -8,7 +8,8 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: max-content;
+  padding-bottom: 90px;
   max-width: 1500px;
 }
 .landingPage .right {
@@ -43,6 +44,7 @@ main{
 }
 .landingPage .left .top-container .text h1{
   margin-bottom: 50px;
+  color: #263238;
 }
 .landingPage .left .top-container .text p{
   font-size: 25px;
