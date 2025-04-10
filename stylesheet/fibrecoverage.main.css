@@ -40,6 +40,39 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+}
+.fibreContainer .container .bottom-container .left-container .container{
+  width: 300px;
+  height: 300px;
+}
+.fibreContainer .container .bottom-container .left-container .container .img svg{
+  fill: #2db34a;
+  width: 80px;
+  height: 80px;
+}
+.fibreContainer .container .bottom-container .left-container .container .text{
+  background-color: #e8e8e8be;
+  padding: 20px;
+  height: 150px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.fibreContainer .container .bottom-container .left-container .container .text .head h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #161617;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.fibreContainer .container .bottom-container .left-container .container .text .head p{
+  font-size: 25px;
+  color: #161617;
+  text-align: center;
+  margin-top: 5px;
 }
 .fibreContainer .container .bottom-container .right-container{
   width: 40%;
