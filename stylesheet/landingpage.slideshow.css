@@ -1,5 +1,5 @@
 .activeSlide{
-  background-color: tomato;
+  background-color: #2db34a;
 }
 /********* left *********/
 .landingPage .right .container{
@@ -25,9 +25,6 @@
   border-radius: 20px;
   padding: 10px;
   margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .landingPage .right .container .cont-2 p{
   width: 100%;
@@ -40,7 +37,19 @@
 .landingPage .right .container .cont-2 p:nth-child(2){
   font-size: 18px;
 }
-
+.landingPage .right .container .cont-2 .innerPic{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingPage .right .container .cont-2 .innerPic img{
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .landingPage .right .container .cont-2 .inner-container{
   width: 100%;
   flex-grow: 1;
@@ -105,7 +114,7 @@
   width: 60px;
   height: 40px;
   border-radius: 50px;
-  border: 2px solid black;
+  border: 1.5px solid #2db34a;
   cursor: pointer;
 }
 .landingPage .right .container .cont-3 .s2{

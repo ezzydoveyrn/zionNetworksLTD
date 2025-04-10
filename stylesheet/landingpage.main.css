@@ -5,7 +5,7 @@ main{
 }
 .landingPage {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: max-content;
   padding-bottom: 20px;
