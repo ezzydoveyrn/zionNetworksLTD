@@ -42,7 +42,7 @@ setInterval(() => {
 
     slide1Active.classList.toggle("activeSlide");
     slide2Active.classList.toggle("activeSlide");
-}, 5000);
+}, 4000);
 
 slideBtnLeft.addEventListener("click", (e) => {
     slide1.classList.toggle("displayNone");
