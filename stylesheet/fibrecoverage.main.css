@@ -76,10 +76,22 @@
 }
 .fibreContainer .container .bottom-container .right-container{
   width: 40%;
-  height: 300px;
+  height: max-content;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
+}
+.fibreContainer .container .bottom-container .right-container h4{
+  font-size: 20px;
+  font-weight: bold;
+  color: #161617;
+  text-align: center;
+}
+.fibreContainer .container .bottom-container .right-container p{
+  font-size: 16px;
+  color: #161617;
+  text-align: center;
+  margin-top: 10px;
 }
 @media (max-width: 500px) {
   .fibreContainer {
