@@ -12,25 +12,19 @@ html {
 .displayNone{
   display: none;
 }
-.scroll-to-top {
-  position: fixed;
-  bottom: 40px;
-  right: 30px;
-  width: 40px;
-  height: 40px;
-  z-index: 999;
-  background-color: #2db34a;
+#scrollTop {
+  background-color: #2cb34a;
   color: white;
   border: none;
-  border-radius: 50%;
   padding: 10px;
-  font-size: 20px;
+  border-radius: 5px;
   cursor: pointer;
-  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
   transition: opacity 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-.scroll-to-top:hover {
-  background-color: #24a13e;
+  opacity: 0.7;
+  font-size: 20px;
+  display: none; /* Initially hidden */
 }

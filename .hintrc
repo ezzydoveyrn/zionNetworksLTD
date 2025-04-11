@@ -24,6 +24,7 @@
         ]
       }
     ],
-    "apple-touch-icons": "off"
+    "apple-touch-icons": "off",
+    "disown-opener": "off"
   }
 }

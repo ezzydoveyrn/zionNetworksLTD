@@ -62,15 +62,6 @@
   align-items: center;
 }
 
-#scrollTop {
-  background-color: #111827;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 /* Responsive */
 @media (max-width: 700px) {
   .footer-container {
