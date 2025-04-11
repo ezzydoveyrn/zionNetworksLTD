@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="stylesheet/router.main.css">
   <link rel="stylesheet" href="stylesheet/productsection.main.css">
   <link rel="stylesheet" href="stylesheet/insurancesection.main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
 
 </head>
@@ -415,61 +417,65 @@
 
   </main>
   <footer class="footer">
-  <!-- Top Div -->
-    <div class="footer-top">
-      <!-- Contact -->
-      <div class="footer-section">
-        <h4>Contact</h4>
-        <p>Email: <a href="mailto:intertechzion@gmail.com">intertechzion@gmail.com</a></p>
-        <p>Phone: <a href="tel:+254722291143">072 2291 143</a></p>
-        <p>Address: Zion Generals Ltd, Off Kioi Road next to Malkia Wings Hospital</p>
-      </div>
-
-      <!-- Categories -->
-      <div class="footer-section">
-        <h4>Categories</h4>
-        <ul>
-          <li>Tech</li>
-          <li>Explore Packages</li>
-          <li>Add-Ons</li>
-          <li>FAQs</li>
-        </ul>
-      </div>
-
-      <!-- Quick Links -->
-      <div class="footer-section">
-        <h4>Quick Links</h4>
+    <div class="footer-container">
+      <!-- Zion Networks -->
+      <div class="footer-col">
+        <h3><span class="logo-highlight">Zion</span> Networks</h3>
         <ul>
           <li>About Us</li>
-          <li>Shop</li>
-          <li>Services</li>
-          <li>Blog</li>
-          <li>Contact</li>
+          <li>Our Services</li>
+          <li>Pricing Plans</li>
+          <li>Careers</li>
+        </ul>
+        <img src="paybill.png" alt="Paybill Number" class="paybill-img" />
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+
+      <!-- Support -->
+      <div class="footer-col">
+        <h3>Support</h3>
+        <ul>
+          <li>Contact Us</li>
+          <li>FAQs</li>
+          <li><i class="fab fa-whatsapp"></i> CHAT ON WHATSAPP</li>
         </ul>
       </div>
 
-      <!-- Form -->
-      <div class="footer-section">
-        <h4>Subscribe</h4>
-        <form>
-          <input type="email" placeholder="Email" required />
-          <input type="text" placeholder="Your Name" required />
-          <input type="submit" value="Submit" />
-        </form>
+      <!-- Get In Touch -->
+      <div class="footer-col">
+        <h3>Get In Touch</h3>
+        <ul>
+          <li><i class="fas fa-phone"></i> +254-722-291-143</li>
+          <li><i class="fas fa-envelope"></i> intertechzion@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i> Zion Generals Ltd, Off Kioi Road next to Malkia Wings Hospital</li>
+          <li><i class="fas fa-location-arrow"></i> Get Direction</li>
+        </ul>
+      </div>
+
+      <!-- Information -->
+      <div class="footer-col">
+        <h3>Information</h3>
+        <ul>
+          <li>Blog</li>
+          <li>Privacy Policy</li>
+          <li>Terms and Conditions</li>
+          <li>Cookie Policy</li>
+        </ul>
       </div>
     </div>
 
-    <!-- Bottom Div -->
     <div class="footer-bottom">
-      <a href="https://www.facebook.com/share/1BPaP81G7u/" target="_blank">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
-      <a href="#">LinkedIn</a>
+      <p>&copy; Zion Networks. All Rights Reserved.</p>
+      <button id="scrollTop"><i class="fas fa-arrow-up"></i></button>
     </div>
   </footer>
-  <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
   <script>
-    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    const scrollToTopBtn = document.getElementById('scrollTop');
 
     window.addEventListener("scroll", () => {
       if (window.scrollY > 400) {
