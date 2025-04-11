@@ -1,0 +1,77 @@
+.addOn-container{
+  background: #f2f5f7;
+}
+
+.addOn-container .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+  color: #111;
+}
+
+.addOn-container .container h1 {
+  color: #3a4a5b;
+  margin-bottom: 40px;
+}
+
+.addOn-container .container .addons {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.addOn-container .container .addons .addon-card {
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.addOn-container .container .addons .addon-card .icon img {
+  width: 60px;
+  height: 60px;
+  background-color: #28a745;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.addOn-container .container .addons .addon-card h2 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.addOn-container .container .addons .addon-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.addOn-container .container .addons .addon-card button {
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.addOn-container .container .addons .addon-card button:hover {
+  background-color: #eee;
+}
+
+@media (max-width: 500px) {
+  .addOn-container .container .addons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .addOn-container .container h1 {
+    color: #3a4a5b;
+    margin-bottom: 25px;
+  }
+}

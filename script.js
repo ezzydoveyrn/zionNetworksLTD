@@ -137,3 +137,8 @@ function renderPackages(category) {
     container.appendChild(card);
   });
 }
+
+
+function showInfo(addonName) {
+  alert(`More information about: ${addonName}`);
+}

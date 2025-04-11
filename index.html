@@ -23,6 +23,7 @@
   <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="stylesheet/areacheck.form.css">
   <link rel="stylesheet" href="stylesheet/packagesection.main.css">
+  <link rel="stylesheet" href="stylesheet/adons.main.css">
 
 </head>
 <body>
@@ -207,6 +208,43 @@
       <!-- JS will inject cards here -->
     </div>
   </section>
+  <div class="addOn-container">
+    <div class="container" id="addOns" data-aos="fade-up" data-aos-delay="50" data-aos-offset="200">
+      <h1>Home Fibre Add-ons</h1>
+      <div class="addons">
+        <!-- Smart TV Box -->
+        <div class="addon-card">
+          <div class="icon">
+            <img src="https://img.icons8.com/ios-filled/100/000000/cast.png" alt="Smart TV Box" />
+          </div>
+          <h2>SMART TV BOX</h2>
+          <p>Enjoyment ni ku-transform your TV into a Smart TV. Get a Smart Android Box and upgrade to Casting.</p>
+          <button onclick="showInfo('Smart TV Box')">Find out more →</button>
+        </div>
+  
+        <!-- Home CCTV -->
+        <div class="addon-card">
+          <div class="icon">
+            <img src="https://img.icons8.com/ios-filled/100/000000/security-camera.png" alt="Home CCTV" />
+          </div>
+          <h2>HOME CCTV</h2>
+          <p>Safety is paramount, so is peace of mind. Maintain safety in your home and manage basic home utilities at all times.</p>
+          <button onclick="showInfo('Home CCTV')">Find out more →</button>
+        </div>
+  
+        <!-- Home Insurance -->
+        <div class="addon-card">
+          <div class="icon">
+            <img src="https://img.icons8.com/ios-filled/100/000000/shield.png" alt="Home Insurance" />
+          </div>
+          <h2>HOME INSURANCE</h2>
+          <p>Welcome to the good life, where everything you own is protected and your peace of mind remains intact.</p>
+          <button onclick="showInfo('Home Insurance')">Find out more →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </main>
   <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
   <script>
