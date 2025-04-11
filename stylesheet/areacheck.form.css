@@ -1,0 +1,57 @@
+.fibreContainer .container .bottom-container .right-container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .fibreContainer .container .bottom-container .right-container form .input-container{
+    width: 100%;
+  }
+}
+.fibreContainer .container .bottom-container .right-container form .input-container label{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container select{
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container select:focus{
+  border-color: #007bff;
+  outline: none;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container select.error{
+  border-color: red;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container select.error:focus{
+  border-color: red;
+  outline: none;
+}
+
+.fibreContainer .container .bottom-container .right-container form .input-container input[type="text"]{
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container input[type="text"]:focus{
+  border-color: #007bff;
+  outline: none;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container input[type="text"].error{
+  border-color: red;
+}
+.fibreContainer .container .bottom-container .right-container form .input-container input[type="text"].error:focus{
+  border-color: red;
+  outline: none;
+}

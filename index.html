@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="stylesheet/sidenav.general.css">
   <link rel="stylesheet" href="stylesheet/fibrecoverage.main.css">
   <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="stylesheet/areacheck.form.css">
 
 </head>
 <body>
@@ -162,8 +163,29 @@
           <div class="right-container">
             <h4>Get Connected to Zion Fibre</h4>
             <p>Find out if your area is fibre ready</p>
-            <div class="left"></div>
-            <div class="right"></div>
+           <form>
+            <div class="input-container">
+              <label for="selectarea">Select your town/area</label>
+              <select name="selectarea" id="selectarea">
+                <option value="town1">Town 1</option>
+                <option value="town2">Town 2</option>
+                <option value="town3">Town 3</option>
+                <option value="town4">Town 4</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <label for="enterestate">Enter Estate/Building name</label>
+              <input type="text" name="enterestate" id="enterestate" required>
+            </div>
+            <div class="input-container">
+              <label for="enterlandmark">Enter Closest Landmark</label>
+              <input type="text" name="enterlandmark" id="enterlandmark" placeholder="Enter your closest landmark" required>
+            </div>
+            <div class="input-container">
+              <label for="generalarea">Enter your general area</label>
+              <input type="text" name="generalarea" id="generalarea" placeholder="Town/street" required>
+            </div>
+           </form>
           </div>
         </div>
       </div>
