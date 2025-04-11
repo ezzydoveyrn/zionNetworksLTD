@@ -10,6 +10,9 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
   <title>ZION GENERALS LIMITED</title>
   <link rel="stylesheet" href="stylesheet/general.style.css">
   <link rel="stylesheet" href="stylesheet/style.css">
@@ -19,6 +22,7 @@
   <link rel="stylesheet" href="stylesheet/fibrecoverage.main.css">
   <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="stylesheet/areacheck.form.css">
+  <link rel="stylesheet" href="stylesheet/packagesection.main.css">
 
 </head>
 <body>
@@ -45,11 +49,10 @@
       </nav>
       <div class="sidenav-container" id="sideNav">
         <ul class="sidenav-list">
-          <li><a href="#">Get Connected</a></li>
-          <li><a href="#">Explore</a></li>
-          <li><a href="#">Packages</a></li>
-          <li><a href="#">Add-Ons</a></li>
-          <li><a href="#">FAQs</a></li>
+          <li><a href="index.html#fibreContainer">Get Connected</a></li>
+          <li><a href="index.html#explorePackages">Explore Packages</a></li>
+          <li><a href="index.html#addOns">Add-Ons</a></li>
+          <li><a href="index.html#faqs">FAQs</a></li>
         </ul>
       </div>
     </div>
@@ -59,18 +62,17 @@
       </div>
       <nav>
         <ul class="bottom-nav">
-          <li><a href="#">Get Connected</a></li>
-          <li><a href="#">Explore</a></li>
-          <li><a href="#">Packages</a></li>
-          <li><a href="#">Add-Ons</a></li>
-          <li><a href="#">FAQs</a></li>
+          <li><a href="#fibreContainer">Get Connected</a></li>
+          <li><a href="#explorePackages">Explore Packages</a></li>
+          <li><a href="#addOns">Add-Ons</a></li>
+          <li><a href="#faqs">FAQs</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <div class="overlay" id="overlay"></div>
   <main>
-    <div class="landingPage">
+    <div class="landingPage" id="landingPage" data-aos="flip-right" data-aos-delay="100" data-aos-offset="200">
       <div class="right">
         <div class="container">
           <div class="cont-1">
@@ -140,8 +142,8 @@
         </div>
       </div>
     </div>
-    <div class="fibreContainer">
-      <div class="container">
+    <div class="fibreContainer" id="fibreContainer">
+      <div class="container" data-aos="fade-right" data-aos-delay="100" data-aos-offset="200">
         <div class="top-container">
           Check Fibre Coverage
         </div>
@@ -193,10 +195,52 @@
         </div>
       </div>
     </div>
+    <section class="package-section" id="explorePackages" data-aos="fade-up" data-aos-delay="100" data-aos-offset="200">
+    <h1>Fibre Packages</h1>
+    <div class="package-buttons">
+      <button class="tab-btn active" data-category="home">Explore Home</button>
+      <button class="tab-btn" data-category="family">Explore Family Share</button>
+      <button class="tab-btn" data-category="business">Explore Business</button>
+    </div>
+
+    <div id="package-container" class="package-container">
+      <!-- JS will inject cards here -->
+    </div>
+  </section>
   </main>
+  <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+  <script>
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        scrollToTopBtn.style.display = "block";
+      } else {
+        scrollToTopBtn.style.display = "none";
+      }
+    });
+
+    scrollToTopBtn.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+
+  </script>
   <button id="installBtn" style="display: none;">Install App</button>
   <script src="sw.js"></script>
   <script src="javascript/header.js"></script>
   <script src="javascript/slideshow.main.js"></script>
+  <script src="script.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // animation duration in ms
+      once: true,    // animate only once while scrolling down
+    });
+  </script>
+
 </body>
 </html>
