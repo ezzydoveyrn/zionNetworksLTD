@@ -67,6 +67,7 @@
 }
 .landingPage .right .container .cont-2 .inner-container .prod-container .top{
   background-color: rgb(237, 31, 41);
+  color: white;
   height: 60px;
   border-radius: 0 0 10px 10px;
 }
@@ -193,6 +194,7 @@
   }
   .landingPage .right .container .cont-2 .inner-container .prod-container .top{
     background-color: rgb(237, 31, 41);
+    color: white;
     height: 40px;
     border-radius: 0 0 10px 10px;
     padding: 2px;
