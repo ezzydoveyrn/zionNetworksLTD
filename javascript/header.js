@@ -1,6 +1,13 @@
 const sidenavBtn = document.querySelector(".sidenav-btn");
 const sidenav = document.querySelector(".sidenav-container");
 const overlay = document.getElementById("overlay");
+const sidenavlink = document.querySelectorAll(".sidenav-container ul li");
+
+sidenavlink.forEach((link) => {
+  link.addEventListener("click", () => {
+    sidenav.classList.toggle("active"); // or remove 'active', etc.
+  });
+});
 
 sidenavBtn.addEventListener("click", () => {
   sidenav.classList.toggle("active");
