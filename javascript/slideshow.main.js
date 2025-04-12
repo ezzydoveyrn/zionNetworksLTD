@@ -1,27 +1,27 @@
 const slideshowProds = [
   {
     packageName: "BRONZE",
-    speed: "15 Mbps",
+    speed: "3 Mbps",
     currency: "KES",
-    price: 2999,
+    price: "1,000",
   },
   {
     packageName: "SILVER",
-    speed: "30 Mbps",
+    speed: "5 Mbps",
     currency: "KES",
-    price: 4000,
+    price: "1,500",
   },
   {
     packageName: "GOLD",
-    speed: "80 Mbps",
+    speed: "7 Mbps",
     currency: "KES",
-    price: 6299,
+    price: "2,000",
   },
   {
     packageName: "DIAMOND",
-    speed: "500 Mbps",
+    speed: "10 Mbps",
     currency: "KES",
-    price: 12499,
+    price: "2,500",
   },
 ];
 let slideshowDisp = document.querySelector(

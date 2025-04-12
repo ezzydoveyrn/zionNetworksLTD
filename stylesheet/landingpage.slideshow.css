@@ -14,13 +14,14 @@
   align-items: center;
 }
 .landingPage .right .container .cont-1 .randomTop-text{
-  color: #2db34a;
+  color: #073b2f;
   font-weight: bold;
 }
 .landingPage .right .container .cont-2{
   width: 95%;
   height: 55vh;
-  background-color: #00ab50;
+  background-color: #073b2f;
+  color: aliceblue;
   min-height: 270px;
   border-radius: 20px;
   padding: 10px;
@@ -151,18 +152,20 @@
     align-items: center;
   }
   .landingPage .right .container .cont-1 .randomTop-text{
-    color: #2db34a;
+    color: #073b2f;
     font-weight: bold;
   }
   .landingPage .right .container .cont-2{
     width: 100%;
-    height: 35vh;
-    background-color: #00ab50;
+    height: 250px;
+    background-color: #073b2f;
+    color: whitesmoke;
     border-radius: 20px;
     padding: 10px;
   }
   .landingPage .right .container .cont-2 p{
     width: 100%;
+    font-size: 14px;
     text-align: center;
   }
   .landingPage .right .container .cont-2 p:first-child{
@@ -178,10 +181,13 @@
 
   .landingPage .right .container .cont-2 .inner-container{
     width: 100%;
-    flex-grow: 1;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+  .landingPage .right .container .cont-2 .innerPic{
+    height: 100px;
   }
   .landingPage .right .container .cont-2 .inner-container .prod-container{
     height: 90%;

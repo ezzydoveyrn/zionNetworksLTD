@@ -13,14 +13,14 @@ html {
   display: none;
 }
 #scrollTop {
-  background-color: #2cb34a;
+  background-color: #57ae4f;
   color: white;
   border: none;
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
   position: fixed;
-  bottom: 20px;
+  bottom: 70px;
   right: 20px;
   z-index: 1000;
   transition: opacity 0.3s ease;
