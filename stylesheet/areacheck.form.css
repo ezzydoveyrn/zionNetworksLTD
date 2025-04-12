@@ -10,7 +10,7 @@
   width: 200px;
   margin-bottom: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .fibreContainer .container .bottom-container .right-container form .input-container{
     width: 100%;
   }

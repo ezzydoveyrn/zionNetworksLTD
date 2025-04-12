@@ -93,7 +93,7 @@
   text-align: center;
   margin-top: 10px;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .fibreContainer {
     display: flex;
     flex-direction: column;

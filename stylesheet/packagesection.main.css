@@ -117,7 +117,7 @@
 .platinum h2 { background: #b38aff; }
 
 /* Responsive */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .package-container {
     overflow-x: auto;
     justify-content: flex-start;

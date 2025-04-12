@@ -63,7 +63,7 @@
 }
 
 /* Responsive */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .footer-container {
     width: 100%;
     flex-direction: column;
