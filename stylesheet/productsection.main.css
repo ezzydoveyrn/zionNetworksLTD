@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: #f5f7f9;
+  max-width: 1500px;
 }
 
 .product-card {
