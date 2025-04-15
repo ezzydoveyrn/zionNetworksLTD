@@ -2,8 +2,6 @@ main{
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #f2f5f7;
 }
 .landingPage {
   display: flex;
@@ -12,7 +10,6 @@ main{
   height: max-content;
   padding-bottom: 20px;
   max-width: 1500px;
-  background-color: #fff;
 }
 .landingPage .right {
   display: flex;
