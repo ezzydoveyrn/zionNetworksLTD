@@ -1,7 +1,8 @@
 .insurance-section {
-  background-color: #f1f8f6;
   padding: 40px 20px;
   font-family: 'Arial', sans-serif;
+  width: 100%;
+  max-width: 1300px;
 }
 
 .section-title {

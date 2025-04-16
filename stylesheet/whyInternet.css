@@ -4,6 +4,8 @@
   padding: 60px 20px;
   text-align: center;
   background-color: #f2f5f7;
+  width: 100%;
+  max-width: 1500px;
 }
 
 .business-section .subtitle {

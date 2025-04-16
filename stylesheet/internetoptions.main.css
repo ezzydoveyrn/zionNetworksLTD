@@ -5,6 +5,13 @@
   padding: 40px 20px;
   background-color: #f4f6f8;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 1500px;
+}
+@media (min-width: 1300px) {
+  .internet-options{
+    justify-content: space-around;
+  }
 }
 
 .internet-options .internet-card {

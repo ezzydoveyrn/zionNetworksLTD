@@ -1,10 +1,11 @@
 .addOn-container{
+  width: 100%;
   background: #f2f5f7;
 }
 
 .addOn-container .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
   padding: 40px 20px;
   text-align: center;

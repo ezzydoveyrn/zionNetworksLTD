@@ -33,6 +33,11 @@
   height: max-content;
   width: 100%;
 }
+@media (min-width: 1500px) {
+  .fibreContainer .container .bottom-container{
+    justify-content: space-between;
+  }
+}
 .fibreContainer .container .bottom-container .left-container{
   width: 50%;
   height: 500px;

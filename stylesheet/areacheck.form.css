@@ -57,6 +57,7 @@
 }
 .fibreContainer .container .bottom-container .right-container form .submit-input{
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
