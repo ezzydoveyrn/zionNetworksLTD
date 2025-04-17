@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.sideNav{
+  width: 250px;
+  height: 100vh;
+  background-color: aliceblue;
+  box-shadow: 0 0 10px black;
+}
+
+.sideNav .landingPageLink{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  box-shadow: 0 0 10px black;
+}
+.sideNav .landingPageLink a{
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+}
+.sideNav .landingPageLink a img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.body{
+  flex-grow: 1;
+  max-width: 1100px;
+  height: 100vh;
+  background-color: #073b2f;
+}
+
+.userDetails{
+  width: 300px;
+  height: 100vh;
+  background: aqua;
+  box-shadow: 0 0 10px aqua;
+  display: flex;
+  flex-direction: column;
+}
+.userDetails .profile{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userDetails .profile .profilePic{
+  width: 180px;
+  height: 180px;
+  background-color: whitesmoke;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid #073b2f;
+  box-shadow: 0 0 10px #073b2f, inset 0 0 100px white;
+}
+.userDetails .profile .profilePic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+.userDetails .detailsContainer{
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.userDetails .detailsContainer .name{
+  width: 100%;
+  height: max-content;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.userDetails .detailsContainer .det{
+  width: 90%;
+  height: max-content;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+.userDetails .detailsContainer .det .btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+#updateProfilebtn{
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #073b2f;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.userDetails .detailsContainer .det p{
+  width: 100%;
+  height: max-content;
+  padding: 10px;
+}
+.userDetails .followDev{
+  width: 100%;
+  height: 40px;
+}
