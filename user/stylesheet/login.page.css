@@ -161,3 +161,10 @@ form #login{
 .displayNone{
   display: none;
 }
+
+.error-input{
+  border: 2px solid red;
+}
+.remove-error{
+  border: 1px solid black;
+}

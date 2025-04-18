@@ -1,3 +1,11 @@
+<?php
+  session_start();
+  $username = $_SESSION["username"];
+  if(!$username){
+    header("Location: login.php?logMsg=you must login to continue");
+  }
+  require_once("../config/db.config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,32 +26,22 @@
   <main>
     <div class="sideNav">
       <div class="landingPageLink">
-        <a href="../index.html">
+        <a href="../index.php">
           <img src="../assets/logo/white.png" alt="">
         </a>
       </div>
+      <div class="links">
+        <a href="logout.php">LOGOUT</a>
+      </div>
     </div>
     <div class="body"></div>
-    <div class="userDetails">
-      <div class="profile">
-        <div class="profilePic">
-          <img src="../assets/images/dev.png" alt="">
-        </div>
-      </div>
-      <div class="detailsContainer">
-        <div class="name">Ezekiel Mokaya Ogana</div>
-        <div class="det">
-          <p><b>Username:</b> ezzydoveyrn</p>
-          <p><b>Phone:</b> 0702491550</p>
-          <p><b>Email:</b> e********a@gmail.com</p>
-          <p><b>Payment Options:</b> Mpesa</p>
-          <div class="btn">
-            <button id="updateProfilebtn">Update Profile</button>
-          </div>
-        </div>
-      </div>
-      <div class="followDev"></div>
-    </div>
+    <?php
+      require_once("fetchdet/fetchuser.det.php");
+    ?>
   </main>
 </body>
 </html>
+
+<?php
+  mysqli_close($conn);
+?>
