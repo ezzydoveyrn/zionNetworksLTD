@@ -11,6 +11,6 @@
     $conn = mysqli_connect($db_user, $db_server, $db_password, $db_name);
   }
   catch(mysqli_sql_exception){
-    echo"error connecting to the server";
+    $errorMsL = "error connecting to the server";
   }
 ?>
