@@ -1,7 +1,7 @@
 <?php
   $db_user = "localhost";
   $db_server = "root";
-  $db_password = "";
+  $db_password = "zgU^|Yg&1A";
   $db_name = "zionlimited";
   $errorMsg = "";
   $errorMsL = "";
