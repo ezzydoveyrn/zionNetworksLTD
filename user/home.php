@@ -20,7 +20,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zion Networks Limited</title>
-  <link rel="stylesheet" href="stylesheet/main.home.css">
+  <link rel="stylesheet" href="stylesheet/main.home.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/update.profile.css?v='<?php echo time(); ?>'">
 </head>
 <body>
   <main>
@@ -31,10 +32,18 @@
         </a>
       </div>
       <div class="links">
-        <a href="logout.php">LOGOUT</a>
+        <a href="#">ACTIVE SUBSRIPTIONS</a>
+        <a href="#">MANAGE SUBSCRIPTIONS</a>
+        <a href="#">ADD PAYMENT METHOD</a>
+        <a href="#">ACCOUNT DELETION</a>
+        <a href="validation/logout.php">LOGOUT</a>
       </div>
     </div>
-    <div class="body"></div>
+    <div class="body">
+      <div class="updateProfile">
+        <?php require_once("update.user.php"); ?> 
+      </div>
+    </div>
     <?php
       require_once("fetchdet/fetchuser.det.php");
     ?>

@@ -1,0 +1,37 @@
+.updateProfile{
+  width: 90%;
+  min-height: 500px;
+  height: 90%;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0 0 10px aliceblue;
+}
+form{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input{
+  padding: 10px;
+}
+form .passwordSec{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+form .submit{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .submit input{
+  width: 100px;
+  height: max-content;
+  background-color: rgb(14, 211, 14);
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}

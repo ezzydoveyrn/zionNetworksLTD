@@ -1,5 +1,5 @@
 <?php
-  session_start();
+  session_start(); 
   require_once("../config/db.config.php");
   if(isset($_GET["logMsg"])){
     $logMsg = $_GET["logMsg"];
@@ -20,7 +20,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zion Networks | User Registration and Login</title>
 </head>
-<link rel="stylesheet" href="stylesheet/login.page.css">
+<link rel="stylesheet" href="stylesheet/login.page.css?v='<?php echo time(); ?>'">
 <body>
   <div class="container">
     <div class="form">

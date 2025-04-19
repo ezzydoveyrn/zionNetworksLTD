@@ -15,25 +15,25 @@
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
   <title>ZION GENERALS LIMITED</title>
-  <link rel="stylesheet" href="stylesheet/general.style.css">
-  <link rel="stylesheet" href="stylesheet/style.css">
-  <link rel="stylesheet" href="stylesheet/landingpage.main.css">
-  <link rel="stylesheet" href="stylesheet/landingpage.slideshow.css">
-  <link rel="stylesheet" href="stylesheet/sidenav.general.css">
-  <link rel="stylesheet" href="stylesheet/fibrecoverage.main.css">
+  <link rel="stylesheet" href="stylesheet/general.style.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/style.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/landingpage.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/landingpage.slideshow.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/sidenav.general.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/fibrecoverage.main.css?v='<?php echo time(); ?>'">
   <link rel="manifest" href="/manifest.json">
-  <link rel="stylesheet" href="stylesheet/areacheck.form.css">
-  <link rel="stylesheet" href="stylesheet/packagesection.main.css">
-  <link rel="stylesheet" href="stylesheet/adons.main.css">
-  <link rel="stylesheet" href="stylesheet/footer.main.css">
-  <link rel="stylesheet" href="stylesheet/wireless.main.css">
-  <link rel="stylesheet" href="stylesheet/whyInternet.css">
-  <link rel="stylesheet" href="stylesheet/internetoptions.main.css">
-  <link rel="stylesheet" href="stylesheet/router.main.css">
-  <link rel="stylesheet" href="stylesheet/productsection.main.css">
-  <link rel="stylesheet" href="stylesheet/insurancesection.main.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="stylesheet/chatcontainer.css">
+  <link rel="stylesheet" href="stylesheet/areacheck.form.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/packagesection.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/adons.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/footer.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/wireless.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/whyInternet.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/internetoptions.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/router.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/productsection.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/insurancesection.main.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css?v='<?php echo time(); ?>'">
+  <link rel="stylesheet" href="stylesheet/chatcontainer.css?v='<?php echo time(); ?>'">
 
 
 

@@ -18,7 +18,7 @@
         $hashedPsd = $row["password"];
         if(password_verify("$passwordd", $hashedPsd)){
           $_SESSION["username"] = "$usernamee";
-          echo"<script>alert('Logged in successfully')</script>";
+          echo"<script>localStorage.setItem('username', JSON.Stringify($usernamee))</script>";
           header("Location: home.php?succMsg='logged in successfully'");
         }else{
           $errorMsL = "wrong Password";
